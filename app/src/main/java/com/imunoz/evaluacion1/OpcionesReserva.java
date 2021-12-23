@@ -1,5 +1,5 @@
 package com.imunoz.evaluacion1;
-
+////////////
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
@@ -66,7 +66,7 @@ public class OpcionesReserva extends AppCompatActivity {
         fotito = findViewById(R.id.fotito);
 
         lista = new ArrayList<Noticia>();
-        //aquí pedimos permisos
+        //aquí pedimos permisos//////////////////////////
         if(Build.VERSION.SDK_INT > Build.VERSION_CODES.M){
             requestPermissions(permisos, 100);
         }
